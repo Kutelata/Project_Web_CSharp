@@ -156,3 +156,7 @@ E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\obj\Debug\BaiTapLonWeb.csp
 E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\obj\Debug\BaiTapLonWeb.csproj.CopyComplete
 E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\obj\Debug\BaiTapLonWeb.dll
 E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\obj\Debug\BaiTapLonWeb.pdb
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.dll
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.SqlServer.dll
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.xml
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.SqlServer.xml
