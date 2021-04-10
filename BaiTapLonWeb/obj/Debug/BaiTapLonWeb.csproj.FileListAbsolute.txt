@@ -160,3 +160,7 @@ E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.dll
 E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.SqlServer.dll
 E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.xml
 E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\EntityFramework.SqlServer.xml
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\PagedList.dll
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\PagedList.Mvc.dll
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\PagedList.xml
+E:\LapTrinhWeb\BaiTapLonWeb\BaiTapLonWeb\BaiTapLonWeb\bin\PagedList.Mvc.xml

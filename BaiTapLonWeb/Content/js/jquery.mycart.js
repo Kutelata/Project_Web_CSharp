@@ -1,13 +1,5 @@
-/*
-* jQuery myCart - v1.0 - 2016-04-21
-* http://asraf-uddin-ahmed.github.io/
-* Copyright (c) 2016 Asraf Uddin Ahmed; Licensed None
-*/
-
 (function ($) {
-
   "use strict";
-
   var OptionManager = (function () {
     var objToReturn = {};
 
@@ -24,7 +16,6 @@
       checkoutCart: function(products, totalPrice, totalQuantity) { },
       getDiscountPrice: function(products, totalPrice, totalQuantity) { return null; }
     };
-
 
     var getOptions = function (customOptions) {
       var options = $.extend({}, defaultOptions);

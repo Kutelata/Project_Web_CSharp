@@ -24,7 +24,10 @@
             <table class="table table-striped projects">
                 <thead>
                     <tr>
-                        <th style="width: 1%">
+                        <th style="width: 20%">
+                            @Html.DisplayNameFor(model => model.id)
+                        </th>
+                        <th style="width: 20%">
                             @Html.DisplayNameFor(model => model.category_name)
                         </th>
                         <th style="width: 20%">
@@ -37,6 +40,9 @@
                     {
                         <tr>
                             <td>
+                                @Html.DisplayFor(modelItem => item.id)
+                            </td>
+                            <td>
                                 @Html.DisplayFor(modelItem => item.category_name)
                             </td>
                             <td>
@@ -44,20 +50,14 @@
                             </td>
 
                             <td class="project-actions text-right">
-                                <a class="btn btn-primary btn-sm" href="@Url.Action("Detail", "Categories", new { id = item.id })">
-                                    <i class="fas fa-folder">
-                                    </i>
-                                    View
+                                <a class="btn btn-primary btn-sm" href="@Url.Action("Details", "Categories", new { id = item.id })">
+                                    <i class="fas fa-eye"></i>
                                 </a>
-                                <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "Categories")">
-                                    <i class="fas fa-pencil-alt">
-                                    </i>
-                                    Edit
+                                <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "Categories",new { id = item.id })">
+                                    <i class="fas fa-pencil-alt"></i>
                                 </a>
-                                <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Categories")">
-                                    <i class="fas fa-trash">
-                                    </i>
-                                    Delete
+                                <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Categories",new { id = item.id })">
+                                    <i class="fas fa-trash"></i>
                                 </a>
                             </td>
                         </tr>
@@ -68,10 +68,6 @@
         <!-- /.card-body -->
     </div>
     <!-- /.card -->
-
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-success" })
 </section>
 <!-- /.content -->
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
