@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace BaiTapLonWeb.Controllers
+namespace WaxStore.Controllers
 {
     public class HomeController : Controller
     {
